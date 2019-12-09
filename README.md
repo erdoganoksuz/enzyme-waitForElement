@@ -11,7 +11,7 @@ Usage
     
     const el= await wrapper.waitForElement(".hello");
     
-    expect(el.tex()).toEqual("Hello")
+    expect(el.text()).toEqual("Hello")
   })
  
  ```
